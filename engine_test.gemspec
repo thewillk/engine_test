@@ -7,11 +7,11 @@ require "engine_test/version"
 Gem::Specification.new do |s|
   s.name        = "engine_test"
   s.version     = EngineTest::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of EngineTest."
-  s.description = "TODO: Description of EngineTest."
+  s.authors     = ["Motherfucking Will"]
+  s.email       = ["djukami@gmail.com"]
+  s.homepage    = "https://github.com/djukami/engine_test"
+  s.summary     = "Playing with Rails Engines."
+  s.description = "Playing with Rails Engines."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
